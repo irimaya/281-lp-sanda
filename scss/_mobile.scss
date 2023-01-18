@@ -1,10 +1,6 @@
 @media (max-width: 700px) {
 	// Nav
 	#navbar {
-		.logo {
-			font-size: 1.5rem;
-			padding: 10px;
-		}
 		.container {
 			flex-direction: column;
 		}
@@ -26,12 +22,12 @@
 				text-align: center;
 				h1,
 				p {
-					padding-right: 0px;
-				}
-				.small {
-					padding-bottom: 20px;
+					padding-right: 0;
 				}
 			}
-		}
+			.showcase-form {
+				margin-top: 20px;
+			}
+		} //End #showcase .container
 	} //End #showcase
 }

@@ -42,13 +42,13 @@ a {
 .container {
 	margin: auto;
 	max-width: 1300px;
+	overflow: auto;
 	padding: 0 20px;
 }
 
 .large {
 	font-size: 20px;
 }
-
 .small {
 	font-size: 12px;
 }
@@ -85,8 +85,9 @@ form {
 		display: block;
 		width: 100%;
 		padding: 7px 12px;
-		line-height: 1.5;
 		font-size: 1rem;
+		line-height: 1.5;
+		color: #495057;
 		background-color: #fff;
 		border: 1px solid #ced4da;
 		border-radius: 4px;
@@ -95,7 +96,8 @@ form {
 
 // Nav
 #navbar {
-	padding: 20px 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	.container {
 		display: flex;
 		justify-content: space-between;
@@ -127,7 +129,7 @@ form {
 			padding-top: 80px;
 			h1,
 			p {
-				padding-right: 80px;
+				padding-right: 100px;
 			}
 		}
 		.showcase-form {
@@ -151,7 +153,7 @@ form {
 				margin-top: 20px;
 			}
 		}
-	}
+	} //End #showcase .container
 } //End #showcase
 
 // Footer
